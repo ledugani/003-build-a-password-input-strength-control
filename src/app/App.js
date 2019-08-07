@@ -7,7 +7,8 @@ class App extends React.Component {
     super()
 
     this.state = {
-      email: ''
+      email: '',
+      password: ''
     }
 
     this.handleChange = this.handleChange.bind(this)
@@ -27,6 +28,7 @@ class App extends React.Component {
           placeholder="Your email address"
           handleChange={(e) => this.handleChange(e, 'email')}
         />
+
         <PasswordInput
           value={this.state.password}
           placeholder="A secure password"

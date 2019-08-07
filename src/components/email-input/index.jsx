@@ -10,7 +10,7 @@ export default function EmailInput(props) {
       value={props.value}
       className="__email-input"
       placeholder={props.placeholder}
-      onChange={props.handleChange}
+      handleChange={props.handleChange}
     />
   )
 }

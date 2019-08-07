@@ -1,14 +1,14 @@
 import React from 'react';
-import TextInput from '../text-input';
+import TextInput from '../text-input'
 
 import './styles.scss';
 
-export default function EmailInput(props) {
+export default function PasswordInput(props) {
   return (
     <TextInput
-      type="text"
+      type="password"
       value={props.value}
-      className="__email-input"
+      className="__password-input"
       placeholder={props.placeholder}
       onChange={props.handleChange}
     />

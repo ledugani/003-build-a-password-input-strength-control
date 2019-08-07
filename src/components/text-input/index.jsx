@@ -10,6 +10,7 @@ export default function TextInput(props) {
       className={`__text-input ${props.className}`}
       placeholder={props.placeholder}
       onChange={props.handleChange}
+      style={props.style}
     />
   )
 }
